@@ -1,0 +1,212 @@
+{
+  "name": "@marketing-campaigns/how-to-dress-for-cold-weather",
+  "description": "",
+  "version": "0.14.0",
+  "repository": {
+    "type": "git",
+    "url": "git@code.devops.fds.com:polaris/campaign/how-to-dress-for-cold-weather.git"
+  },
+  "config": {
+    "environment": [
+      {
+        "name": "key1",
+        "local": {
+          "mcom": "value1",
+          "bcom": "value2"
+        },
+        "prod": {
+          "mcom": "__VALUE3__",
+          "bcom": "__VALUE4__"
+        }
+      },
+      {
+        "name": "XAPI_HOST",
+        "local": {
+          "mcom": "https://mcom.xapi.com",
+          "bcom": "https://bcom.xapi.com"
+        },
+        "prod": {
+          "mcom": "__VALUE5__",
+          "bcom": "__VALUE6__"
+        }
+      }
+    ],
+    "pages": [
+      {
+        "path": "/",
+        "template": "main",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Ever wonder how to dress for cold weather and still look good? At Macy's, we've got you covered with these tips on cold weather fashion for Men.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/",
+          "robots": "index, follow",
+          "title": "How to dress for cold weather - Men's Guide - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/glove-size-chart/",
+        "template": "glove-size-chart",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Consult this glove size chart to ensure you get the best fitting gloves to keep your hands warm in the winter.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/glove-size-chart/",
+          "robots": "index, follow",
+          "title": "Glove Size Chart - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "glovesizechart.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/best-winter-hats/",
+        "template": "best-winter-hats",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "The best winter hats to keep you warm -- while still looking fresh - are at Macy's. Check out our top winter hat picks.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/best-winter-hats/",
+          "robots": "index, follow",
+          "title": "Best Winter Hats - Men's - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "bestwinterhats.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/how-to-tie-a-scarf/",
+        "template": "how-to-tie-a-scarf",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "You will be an expert at tying scarves this season if you follow these tips from Macy's.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/how-to-tie-a-scarf/",
+          "robots": "index, follow",
+          "title": "How to tie a Scarf - Men's Scarves - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "howtotieascarf.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/best-winter-boots/",
+        "template": "best-winter-boots",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "The best winter boots to keep you warm and dry -- while still looking fresh - are at Macy's. Check out our top winter boot picks.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/best-winter-boots/",
+          "robots": "index, follow",
+          "title": "Best Winter Boots - Men's - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "bestwinterboots.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/best-winter-jackets/",
+        "template": "best-winter-jackets",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "The best winter jackets to keep you warm and dry -- while still looking fresh - are at Macy's. Check out our top winter jacket picks.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/best-winter-jackets/",
+          "robots": "index, follow",
+          "title": "Best Winter Jackets - Men's - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "bestwinterjackets.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/warmest-winter-coats/",
+        "template": "warmest-winter-coats",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Sometimes the warmest winter coats are not the most stylish. At Macy's, we can help you find the best of both worlds with warm winter coats that are still fashionable.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/warmest-winter-coats/",
+          "robots": "index, follow",
+          "title": "Warmest Winter Coats for Men - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "warmestwintercoats.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/layering-for-cold-weather/",
+        "template": "layering-for-cold-weather",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Layering for cold weather is definitely an art -- especially if you still want to look good. Here are some layering tips that will keep you warm this winter.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/layering-for-cold-weather/",
+          "robots": "index, follow",
+          "title": "Layering for Cold Weather - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "layeringforcoldweather.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/what-to-wear-skiing-snowboarding/",
+        "template": "what-to-wear-skiing-snowboarding",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "What to wear skiing or snowboarding is important to think about before you get up on the slopes. Check out these tips on what to wear skiing from Macy's.",
+          "canonical": "https://www.macys.com/p/how-to-dress-for-cold-weather/what-to-wear-skiing-snowboarding/",
+          "robots": "index, follow",
+          "title": "What to wear skiing and snowboarding for Men - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "whattowearskiingsnowboarding.menscoldweatherclothingguide",
+          "categoryID": "standard"
+        }
+      }
+    ],
+    "macysCliVersion": "1.218.0"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "main": "src/how-to-dress-for-cold-weather.js",
+  "devDependencies": {
+    "@core/dev-server": "^1.0.0",
+    "@core/lib": "^1.0.0",
+    "@core/server": "^1.0.0",
+    "lodash": "^4.17.4"
+  },
+  "dependencies": {}
+}
